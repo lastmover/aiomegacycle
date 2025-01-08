@@ -1,0 +1,157 @@
+[
+  {
+    "ticker": "ai16z",
+    "chain": "solana",
+    "address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC"
+  },
+  {
+    "ticker": "GOAT",
+    "chain": "solana",
+    "address": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump"
+  },
+  {
+    "ticker": "VIRTUAL",
+    "chain": "base",
+    "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b"
+  },
+  {
+    "ticker": "arc",
+    "chain": "solana",
+    "address": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump"
+  },
+  {
+    "ticker": "zerebro",
+    "chain": "solana",
+    "address": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn"
+  },
+  {
+    "ticker": "fartcoin",
+    "chain": "solana",
+    "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump"
+  },
+  {
+    "ticker": "griffain",
+    "chain": "solana",
+    "address": "KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP"
+  },
+  {
+    "ticker": "ACT",
+    "chain": "solana",
+    "address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump"
+  },
+  {
+    "ticker": "degenai",
+    "chain": "solana",
+    "address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump"
+  },
+  {
+    "ticker": "bully",
+    "chain": "solana",
+    "address": "79yTpy8uwmAkrdgZdq6ZSBTvxKsgPrNqTLvYQBh1pump"
+  },
+  {
+    "ticker": "gnon",
+    "chain": "solana",
+    "address": "HeJUFDxfJSzYFUuHLxkMqCgytU31G6mjP4wKviwqpump"
+  },
+  {
+    "ticker": "vvaifu",
+    "chain": "solana",
+    "address": "FQ1tyso61AH1tzodyJfSwmzsD3GToybbRNoZxUBz21p8"
+  },
+  {
+    "ticker": "swarms",
+    "chain": "solana",
+    "address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump"
+  },
+  {
+    "ticker": "alch",
+    "chain": "solana",
+    "address": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump"
+  },
+  {
+    "ticker": "ava",
+    "chain": "solana",
+    "address": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+  },
+  {
+    "ticker": "lmt",
+    "chain": "solana",
+    "address": "86t88w3MKT38HChTBKBwEeb1RW1MeTceaW68qY2Vpump"
+  },
+  {
+    "ticker": "fai",
+    "chain": "base",
+    "address": "0xb33Ff54b9F7242EF1593d2C9Bcd8f9df46c77935"
+  },
+  {
+    "ticker": "aixbt",
+    "chain": "base",
+    "address": "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825"
+  },
+  {
+    "ticker": "game",
+    "chain": "base",
+    "address": "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3"
+  },
+  {
+    "ticker": "luna",
+    "chain": "base",
+    "address": "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4"
+  },
+  {
+    "ticker": "vader",
+    "chain": "base",
+    "address": "0x731814e491571A2e9eE3c5b1F7f3b962eE8f4870"
+  },
+  {
+    "ticker": "aixcb",
+    "chain": "base",
+    "address": "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f"
+  },
+  {
+    "ticker": "convo",
+    "chain": "base",
+    "address": "0xab964f7b7b6391bd6c4e8512eF00d01f255d9c0D"
+  },
+  {
+    "ticker": "SEKOIA",
+    "chain": "base",
+    "address": "0x1185cB5122Edad199BdBC0cbd7a0457E448f23c7"
+  },
+  {
+    "ticker": "POLY",
+    "chain": "base",
+    "address": "0x2676E4e0E2eB58D9Bdb5078358ff8A3a964CEdf5"
+  },
+  {
+    "ticker": "henlo",
+    "chain": "base",
+    "address": "0x23A96680Ccde03Bd4Bdd9a3e9a0Cb56A5D27F7c9"
+  },
+  {
+    "ticker": "REI",
+    "chain": "base",
+    "address": "0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD"
+  },
+  {
+    "ticker": "clanker",
+    "chain": "base",
+    "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb"
+  },
+  {
+    "ticker": "cookie",
+    "chain": "base",
+    "address": "0xC0041EF357B183448B235a8Ea73Ce4E4eC8c265F"
+  },
+  {
+    "ticker": "turbo",
+    "chain": "ethereum",
+    "address": "0xA35923162C49cF95e6BF26623385eb431ad920D3"
+  },
+  {
+    "ticker": "botto",
+    "chain": "ethereum",
+    "address": "0x9DFAD1b7102D46b1b197b90095B5c4E9f5845BBA"
+  }
+]

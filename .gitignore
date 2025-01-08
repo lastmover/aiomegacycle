@@ -1,0 +1,17 @@
+# Python-specific
+*.pyc
+__pycache__/
+
+# Environment files
+.env
+venv/
+*.env
+
+# OS and IDE-specific files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Dependency management
+*.log
