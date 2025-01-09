@@ -1,0 +1,139 @@
+/* styles.css */
+
+/* Base Styles */
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+
+@media (min-width: 380px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 580px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (min-width: 1080px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+/* Flourish Footer Styles */
+.flourish-footer {
+  margin: 0;
+}
+
+.flourish-footer p {
+  margin: 0;
+  display: inline;
+}
+
+.flourish-footer p:empty {
+  height: 0;
+}
+
+.flourish-footer a {
+  color: inherit;
+}
+
+/* UI Styles Controls */
+.fl-ui-styles-controls .fl-control.hidden {
+  display: none;
+}
+
+.fl-ui-styles-controls .fl-control {
+  vertical-align: middle;
+  position: relative;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fl-ui-styles-controls .fl-controls-title {
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.fl-ui-styles-controls .fl-control .button {
+  height: 2rem;
+  padding: 0 0.5em;
+}
+
+.fl-ui-styles-controls .fl-control-dropdown select {
+  height: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0 0.2rem;
+}
+
+.fl-ui-styles-controls .fl-control-slider .slider-end-labels {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fl-ui-styles-controls .fl-control-slider {
+  height: 2rem;
+}
+
+/* UI Styles Button */
+.fl-ui-styles-button .fl-control-buttons.fl-control.hidden {
+  display: none;
+}
+
+.fl-ui-styles-button .fl-control-buttons.fl-control .button {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 2px 0 0 !important;
+  background-color: #222429;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 3px;
+}
+
+.fl-ui-styles-button .fl-control-buttons.fl-control .button:hover {
+  background-color: #222429;
+  color: #ffffff;
+}
+
+.fl-ui-styles-button .fl-control-buttons.fl-control .button.selected {
+  background-color: #f3f4f6;
+  color: #000000;
+}
+
+.fl-ui-styles-button .fl-control-buttons.grouped.fl-control .button {
+  border-right: none;
+  border-radius: 0;
+  margin: 0;
+}
+
+.fl-ui-styles-button .fl-control-buttons.grouped.fl-control .button:first-child {
+  border-radius: 3px 0 0 3px;
+}
+
+.fl-ui-styles-button .fl-control-buttons.grouped.fl-control .button:last-child {
+  border-radius: 0 3px 3px 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.fl-ui-styles-button .fl-control-buttons.grouped.fl-control.fixed-width:not(.hidden) {
+  width: 100%;
+}
+
+/* Legend Styles */
+#legend-styles .fl-legend-container.interactive .fl-legend-item:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
