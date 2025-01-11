@@ -1,157 +1,200 @@
 [
   {
-    "ticker": "ai16z",
+    "symbol": "ai16z",
     "chain": "solana",
-    "address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC"
+    "address": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+    "totalSupply": 1099999317
   },
   {
-    "ticker": "GOAT",
+    "symbol": "GOAT",
     "chain": "solana",
-    "address": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump"
+    "address": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+    "totalSupply": 999996372
   },
   {
-    "ticker": "VIRTUAL",
+    "symbol": "VIRTUAL",
     "chain": "base",
-    "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b"
+    "address": "0x0b3e328455c4059EEb9e3f84b5543F74E24e7E1b",
+    "totalSupply": 1000000000
   },
   {
-    "ticker": "arc",
+    "symbol": "arc",
     "chain": "solana",
-    "address": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump"
+    "address": "61V8vBaqAGMpgDQi4JcAwo1dmBGHsyhzodcPqnEVpump",
+    "totalSupply": 999996641
   },
   {
-    "ticker": "zerebro",
+    "symbol": "ZEREBRO",
     "chain": "solana",
-    "address": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn"
+    "address": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn",
+    "totalSupply": 999972024
   },
   {
-    "ticker": "fartcoin",
+    "symbol": "Fartcoin ",
     "chain": "solana",
-    "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump"
+    "address": "9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump",
+    "totalSupply": 999995574
   },
   {
-    "ticker": "griffain",
+    "symbol": "GRIFFAIN",
     "chain": "solana",
-    "address": "KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP"
+    "address": "KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP",
+    "totalSupply": 999872885
   },
   {
-    "ticker": "ACT",
+    "symbol": "ACT",
     "chain": "solana",
-    "address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump"
+    "address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+    "totalSupply": 948246388
   },
   {
-    "ticker": "degenai",
+    "symbol": "degenai",
     "chain": "solana",
-    "address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump"
+    "address": "Gu3LDkn7Vx3bmCzLafYNKcDxv2mH7YN44NJZFXnypump",
+    "totalSupply": 999949985
   },
   {
-    "ticker": "bully",
+    "symbol": "BULLY",
     "chain": "solana",
-    "address": "79yTpy8uwmAkrdgZdq6ZSBTvxKsgPrNqTLvYQBh1pump"
+    "address": "79yTpy8uwmAkrdgZdq6ZSBTvxKsgPrNqTLvYQBh1pump",
+    "totalSupply": 960548072
   },
   {
-    "ticker": "gnon",
+    "symbol": "GNON",
     "chain": "solana",
-    "address": "HeJUFDxfJSzYFUuHLxkMqCgytU31G6mjP4wKviwqpump"
+    "address": "HeJUFDxfJSzYFUuHLxkMqCgytU31G6mjP4wKviwqpump",
+    "totalSupply": 998496212
   },
   {
-    "ticker": "vvaifu",
+    "symbol": "vvaifu",
     "chain": "solana",
-    "address": "FQ1tyso61AH1tzodyJfSwmzsD3GToybbRNoZxUBz21p8"
+    "address": "FQ1tyso61AH1tzodyJfSwmzsD3GToybbRNoZxUBz21p8",
+    "totalSupply": 993684308
   },
   {
-    "ticker": "swarms",
+    "symbol": "swarms",
     "chain": "solana",
-    "address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump"
+    "address": "74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump",
+    "totalSupply": 999984472
   },
   {
-    "ticker": "alch",
+    "symbol": "ALCH",
     "chain": "solana",
-    "address": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump"
+    "address": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump",
+    "totalSupply": 999994121
   },
   {
-    "ticker": "ava",
+    "symbol": "AVA",
     "chain": "solana",
-    "address": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump"
+    "address": "DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump",
+    "totalSupply": 999993461
   },
   {
-    "ticker": "lmt",
+    "symbol": "LMT",
     "chain": "solana",
-    "address": "86t88w3MKT38HChTBKBwEeb1RW1MeTceaW68qY2Vpump"
+    "address": "86t88w3MKT38HChTBKBwEeb1RW1MeTceaW68qY2Vpump",
+    "totalSupply": 999986887
   },
   {
-    "ticker": "fai",
+    "symbol": "FAI",
     "chain": "base",
-    "address": "0xb33Ff54b9F7242EF1593d2C9Bcd8f9df46c77935"
+    "address": "0xb33Ff54b9F7242EF1593d2C9Bcd8f9df46c77935",
+    "totalSupply": 8189700000
   },
   {
-    "ticker": "aixbt",
+    "symbol": "AIXBT",
     "chain": "base",
-    "address": "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825"
+    "address": "0x4F9Fd6Be4a90f2620860d680c0d4d5Fb53d1A825",
+    "totalSupply": 998914867
   },
   {
-    "ticker": "game",
+    "symbol": "GAME",
     "chain": "base",
-    "address": "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3"
+    "address": "0x1C4CcA7C5DB003824208aDDA61Bd749e55F463a3",
+    "totalSupply": 999779370
   },
   {
-    "ticker": "luna",
+    "symbol": "LUNA",
     "chain": "base",
-    "address": "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4"
+    "address": "0x55cD6469F597452B5A7536e2CD98fDE4c1247ee4",
+    "totalSupply": 998493080
   },
   {
-    "ticker": "vader",
+    "symbol": "VADER",
     "chain": "base",
-    "address": "0x731814e491571A2e9eE3c5b1F7f3b962eE8f4870"
+    "address": "0x731814e491571A2e9eE3c5b1F7f3b962eE8f4870",
+    "totalSupply": 996739513
   },
   {
-    "ticker": "aixcb",
+    "symbol": "AIXCB",
     "chain": "base",
-    "address": "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f"
+    "address": "0x76C71F1703Fbf19FFdcF3051E1e684Cb9934510f",
+    "totalSupply": 993506898
   },
   {
-    "ticker": "convo",
+    "symbol": "CONVO",
     "chain": "base",
-    "address": "0xab964f7b7b6391bd6c4e8512eF00d01f255d9c0D"
+    "address": "0xab964f7b7b6391bd6c4e8512eF00d01f255d9c0D",
+    "totalSupply": 999888098
   },
   {
-    "ticker": "SEKOIA",
+    "symbol": "SEKOIA",
     "chain": "base",
-    "address": "0x1185cB5122Edad199BdBC0cbd7a0457E448f23c7"
+    "address": "0x1185cB5122Edad199BdBC0cbd7a0457E448f23c7",
+    "totalSupply": 986227199
   },
   {
-    "ticker": "POLY",
+    "symbol": "POLY",
     "chain": "base",
-    "address": "0x2676E4e0E2eB58D9Bdb5078358ff8A3a964CEdf5"
+    "address": "0x2676E4e0E2eB58D9Bdb5078358ff8A3a964CEdf5",
+    "totalSupply": 998041989
   },
   {
-    "ticker": "henlo",
+    "symbol": "HENLO",
     "chain": "base",
-    "address": "0x23A96680Ccde03Bd4Bdd9a3e9a0Cb56A5D27F7c9"
+    "address": "0x23A96680Ccde03Bd4Bdd9a3e9a0Cb56A5D27F7c9",
+    "totalSupply": 199360240579846
   },
   {
-    "ticker": "REI",
+    "symbol": "REI",
     "chain": "base",
-    "address": "0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD"
+    "address": "0x6B2504A03ca4D43d0D73776F6aD46dAb2F2a4cFD",
+    "totalSupply": 1000000000
   },
   {
-    "ticker": "clanker",
+    "symbol": "clanker",
     "chain": "base",
-    "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb"
+    "address": "0x1bc0c42215582d5A085795f4baDbaC3ff36d1Bcb",
+    "totalSupply": 1000000
   },
   {
-    "ticker": "cookie",
+    "symbol": "cookie",
     "chain": "base",
-    "address": "0xC0041EF357B183448B235a8Ea73Ce4E4eC8c265F"
+    "address": "0xC0041EF357B183448B235a8Ea73Ce4E4eC8c265F",
+    "totalSupply": 101494069
   },
   {
-    "ticker": "turbo",
+    "symbol": "TURBO",
     "chain": "ethereum",
-    "address": "0xA35923162C49cF95e6BF26623385eb431ad920D3"
+    "address": "0xA35923162C49cF95e6BF26623385eb431ad920D3",
+    "totalSupply": 69000000000
   },
   {
-    "ticker": "botto",
+    "symbol": "BOTTO",
     "chain": "ethereum",
-    "address": "0x9DFAD1b7102D46b1b197b90095B5c4E9f5845BBA"
+    "address": "0x9DFAD1b7102D46b1b197b90095B5c4E9f5845BBA",
+    "totalSupply": 100000000
+  },
+  {
+    "symbol": "pippin",
+    "chain": "solana",
+    "address": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
+    "totalSupply": 999996372
+  },
+  {
+    "symbol": "anon",
+    "chain": "solana",
+    "address": "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T",
+    "totalSupply": 21000000
   }
 ]
