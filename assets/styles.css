@@ -5,32 +5,29 @@ html {
   -moz-osx-font-smoothing: auto;
 }
 
+/* Reset base styles */
 body,
 html {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
-  font-family: "IBM Plex Mono", monospace;
 }
 
-/* Container Layout */
+/* Container Layout using Grid */
 .container {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
 }
 
 /* Iframe Styles */
 .iframe-wrapper {
-  flex: 1;
-  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .flourish-embed-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   border: none;
@@ -40,21 +37,28 @@ html {
 .custom-footer {
   background: #222429;
   color: white;
-  padding: 1rem;
+  padding: 0 1rem 1rem 1rem;
   text-align: center;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .custom-footer a {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
-  font-size: min(max(14px, 1.5vw), 20px);
-  font-family: "IBM Plex Mono", monospace;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
 }
 
-.custom-footer a:hover {
-  text-decoration: underline;
+.custom-footer a svg {
+  fill: currentColor; /* Inherits color from the parent <a> */
+  width: 1em;
+  height: 1em;
 }
 
 /* Responsive Font Sizes */
