@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.10.0
+    hooks:
+      - id: black
+
+  - repo: local
+    hooks:
+      - id: prettier
+        name: Prettier Formatter
+        entry: prettier --write
+        language: system
+        files: \.(js|ts|jsx|tsx|css|md)$

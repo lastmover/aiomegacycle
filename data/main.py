@@ -12,15 +12,18 @@ load_dotenv()
 CODEX_API_URL = "https://graph.codex.io/graphql"
 BIRDEYE_API_URL = "https://public-api.birdeye.so/defi/history_price"
 
+
 def load_tracked_tokens(filename="tracked_tokens.json") -> List[Dict[str, Any]]:
     """Loads tracked tokens from JSON."""
     with open(filename, "r") as f:
         return json.load(f)
 
+
 def load_codex_chain_ids(filename="codex_chain_ids.json") -> Dict[str, int]:
     """Loads Codex chain IDs from JSON."""
     with open(filename, "r") as f:
         return json.load(f)
+
 
 def get_codex_token_info(address: str, network_id: int) -> Dict[str, Any]:
     """Fetches name, symbol, and image from Codex."""
@@ -42,7 +45,10 @@ def get_codex_token_info(address: str, network_id: int) -> Dict[str, Any]:
     except Exception:
         return {}
 
-def get_birdeye_prices(address: str, chain: str, start_ts: int, end_ts: int) -> Dict[datetime, float]:
+
+def get_birdeye_prices(
+    address: str, chain: str, start_ts: int, end_ts: int
+) -> Dict[datetime, float]:
     """
     Fetches daily token prices from Birdeye.
     Returns a dict of date -> price. Missing days are omitted.
@@ -64,12 +70,15 @@ def get_birdeye_prices(address: str, chain: str, start_ts: int, end_ts: int) -> 
             items = data["data"]["items"]
             print(f"{address} ({chain}): retrieved {len(items)} price entries.")
             for item in items:
-                day = datetime.fromtimestamp(item["unixTime"]).replace(hour=0, minute=0, second=0, microsecond=0)
+                day = datetime.fromtimestamp(item["unixTime"]).replace(
+                    hour=0, minute=0, second=0, microsecond=0
+                )
                 prices[day] = item["value"]
         time.sleep(1)
     except Exception as e:
         print(f"Birdeye error for {address} ({chain}): {e}")
     return prices
+
 
 def generate_csv_data() -> List[List[Any]]:
     """Generates the CSV data with daily market caps."""
@@ -94,7 +103,9 @@ def generate_csv_data() -> List[List[Any]]:
         name = token_info.get("name", "")
         symbol = token_info.get("symbol", "")
         image = token_info.get("imageLargeUrl", "")
-        prices = get_birdeye_prices(address, chain, int(start.timestamp()), int(end.timestamp()))
+        prices = get_birdeye_prices(
+            address, chain, int(start.timestamp()), int(end.timestamp())
+        )
         daily_caps = []
         for day in date_list:
             price = prices.get(day, 0)
@@ -104,6 +115,7 @@ def generate_csv_data() -> List[List[Any]]:
 
     return rows
 
+
 def save_csv(data: List[List[Any]], filename="historical_data.csv"):
     """Writes CSV data to file."""
     with open(filename, "w", newline="") as f:
@@ -111,10 +123,12 @@ def save_csv(data: List[List[Any]], filename="historical_data.csv"):
         writer.writerows(data)
     print(f"CSV saved to {filename}")
 
+
 def main():
     """Main entry point."""
     csv_data = generate_csv_data()
     save_csv(csv_data)
+
 
 if __name__ == "__main__":
     main()

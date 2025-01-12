@@ -3,6 +3,7 @@
 cool viz of ai omegacycle till now.
 
 ## Project Structure
+
 ```
 aiomegacycle/
 ├── index.html
@@ -19,11 +20,13 @@ aiomegacycle/
 ├── favicon.ico
 └── header.png
 ```
+
 - **`index.html`**: web page embedding the chart.
 - **`data/`**: script and config files to fetch daily market caps.
 - **`assets/`**: static images/CSS.
 
 ## Add a New Token
+
 In `data/tracked_tokens.json`, add your entry, and submit a pull request. Once merged, the new token will be tracked along with the others.
 
 ```
@@ -35,5 +38,6 @@ In `data/tracked_tokens.json`, add your entry, and submit a pull request. Once m
 ```
 
 ## Questions
+
 - Project X: [@aiomegacycle](https://x.com/aiomegacycle)
 - My X: [@last_mover](https://x.com/last_mover)
