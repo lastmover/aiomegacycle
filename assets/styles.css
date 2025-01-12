@@ -5,12 +5,13 @@ html {
   -moz-osx-font-smoothing: auto;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   height: 100vh;
   overflow: hidden;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 /* Container Layout */
@@ -49,7 +50,7 @@ body, html {
   text-decoration: none;
   margin: 0 1rem;
   font-size: min(max(14px, 1.5vw), 20px);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .custom-footer a:hover {
@@ -170,7 +171,9 @@ body, html {
   margin: 0;
 }
 
-.fl-ui-styles-button .fl-control-buttons.grouped.fl-control .button:first-child {
+.fl-ui-styles-button
+  .fl-control-buttons.grouped.fl-control
+  .button:first-child {
   border-radius: 3px 0 0 3px;
 }
 
@@ -179,7 +182,8 @@ body, html {
   border-right: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.fl-ui-styles-button .fl-control-buttons.grouped.fl-control.fixed-width:not(.hidden) {
+.fl-ui-styles-button
+  .fl-control-buttons.grouped.fl-control.fixed-width:not(.hidden) {
   width: 100%;
 }
 
