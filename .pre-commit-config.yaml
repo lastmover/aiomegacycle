@@ -10,4 +10,4 @@ repos:
         name: Prettier Formatter
         entry: prettier --write
         language: system
-        files: \.(js|ts|jsx|tsx|css|md)$
+        files: \.(js|ts|jsx|tsx|css|md|html)$
