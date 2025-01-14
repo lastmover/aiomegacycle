@@ -174,18 +174,6 @@
     "totalSupply": 101494069
   },
   {
-    "symbol": "TURBO",
-    "chain": "ethereum",
-    "address": "0xA35923162C49cF95e6BF26623385eb431ad920D3",
-    "totalSupply": 69000000000
-  },
-  {
-    "symbol": "BOTTO",
-    "chain": "ethereum",
-    "address": "0x9DFAD1b7102D46b1b197b90095B5c4E9f5845BBA",
-    "totalSupply": 100000000
-  },
-  {
     "symbol": "pippin",
     "chain": "solana",
     "address": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
