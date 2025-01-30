@@ -184,5 +184,11 @@
     "chain": "solana",
     "address": "9McvH6w97oewLmPxqQEoHUAv3u5iYMyQ9AeZZhguYf1T",
     "totalSupply": 21000000
-  }
+  },
+  {
+    "symbol": "VVV",
+    "chain": "base",
+    "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+    "totalSupply": 100240000
+  }  
 ]
